@@ -1,3 +1,6 @@
+RimWorld-ro
+===========
+
 A Romanian translation for RimWorld.
 
 See this page for license info:
