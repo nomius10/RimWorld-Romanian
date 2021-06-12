@@ -1,15 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-   <!--=============== Beer ====================-->
-   
-	<Beer.label>Bier</Beer.label>
-	<Beer.description>Das erste je von Menschen konsumierte Getränk, neben Wasser. Bier kann gut schmecken, aber der Hauptzweck liegt in der berauschenden Wirkung. Übermäßiger Konsum kann zur Abhängigkeit führen.</Beer.description>
-	
-  <!--=============== Luxury ====================-->
-   
-	<Chocolate.label>Schokolade</Chocolate.label>
-	<Chocolate.description>Eine sehr schmackhafte Komposition aus Kakao, Zucker und Vanille. Schokolade schmeckt sehr gut, hat aber kaum Nährstoffe.</Chocolate.description>
-
-	
+  <!-- EN: chocolate -->
+  <Chocolate.label>Schokolade</Chocolate.label>
+  <!-- EN: A delicious preparation of cocoa seeds ground together with sugar and vanilla. It fulfills the need for recreation, but it is not very nutritious. -->
+  <Chocolate.description>Eine sehr schmackhafte Komposition aus Kakao, Zucker und Vanille. Schokolade schmeckt sehr gut, hat aber kaum Nährstoffe.</Chocolate.description>
+  
 </LanguageData>

@@ -1,24 +1,54 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-	<PowerConduit.label>Stromkabel</PowerConduit.label>
-	<PowerConduit.description>Leitet Strom zu den Verbrauchern. Kann unter Wänden und anderen Gegenständen verlegt werden.</PowerConduit.description>
-	
-	<PowerSwitch.label>Schalter</PowerSwitch.label>
-	<PowerSwitch.description>Schaltet Strom ein/aus.</PowerSwitch.description>
-	
-	<SolarGenerator.label>Solaranlage</SolarGenerator.label>
-	<SolarGenerator.description>Produziert Strom aus Sonnenlicht. Im Dunkeln ohne Funktion.</SolarGenerator.description>
-	
-	<GeothermalGenerator.label>Geothermie Generator</GeothermalGenerator.label>
-	<GeothermalGenerator.description>Produziert Strom mit Hilfe eines Dampfgeysires. Muss auf einem Geysir plaziert werden.</GeothermalGenerator.description>
-
-	<Battery.label>Batterie</Battery.label>
-	<Battery.description>Speichert Strom, wenn ein Überschuss besteht und gibt ihn wieder ab, wenn er fehlt. Warnung - geladene Batterien können explodieren, wenn sie nass oder heiß werden.</Battery.description>
-
-	<!--
-	<CapsuleReactor.label>Kapsel Reaktor</CapsuleReactor.label>
-	<CapsuleReactor.description>Ein tragbarer High-Tech Reaktor. Er ist eine stetige Stromquelle, die unabhängig von äußeren Einflüssen ist.</CapsuleReactor.description>
-	-->
-
+  <!-- EN: battery -->
+  <Battery.label>Batterie</Battery.label>
+  <!-- EN: Stores electricity for later use. Charged batteries explode when exposed to rain or fire. -->
+  <Battery.description>Speichert Strom, wenn ein Überschuss besteht und gibt ihn wieder ab, wenn er fehlt. Warnung - geladene Batterien können explodieren, wenn sie nass oder heiß werden.</Battery.description>
+  
+  <!-- EN: chemfuel powered generator -->
+  <ChemfuelPoweredGenerator.label>TODO</ChemfuelPoweredGenerator.label>
+  <!-- EN: Produces power by consuming chemfuel. Must be periodically refueled by hand. -->
+  <ChemfuelPoweredGenerator.description>TODO</ChemfuelPoweredGenerator.description>
+  
+  <!-- EN: geothermal generator -->
+  <GeothermalGenerator.label>Geothermie Generator</GeothermalGenerator.label>
+  <!-- EN: Produces electricity from geothermal steam geysers. Must be placed on a steam geyser. -->
+  <GeothermalGenerator.description>Produziert Strom mit Hilfe eines Dampfgeysires. Muss auf einem Geysir plaziert werden.</GeothermalGenerator.description>
+  
+  <!-- EN: power conduit -->
+  <PowerConduit.label>Stromkabel</PowerConduit.label>
+  <!-- EN: A bundle of electrical cables for moving power around. Can be placed under walls and other buildings. -->
+  <PowerConduit.description>Leitet Strom zu den Verbrauchern. Kann unter Wänden und anderen Gegenständen verlegt werden.</PowerConduit.description>
+  
+  <!-- EN: power switch -->
+  <PowerSwitch.label>Schalter</PowerSwitch.label>
+  <!-- EN: Switches power on/off. -->
+  <PowerSwitch.description>Schaltet Strom ein/aus.</PowerSwitch.description>
+  
+  <!-- EN: solar generator -->
+  <SolarGenerator.label>Solaranlage</SolarGenerator.label>
+  <!-- EN: Produces electricity from sunlight. Does not work in the dark or under artificial light. -->
+  <SolarGenerator.description>Produziert Strom aus Sonnenlicht. Im Dunkeln ohne Funktion.</SolarGenerator.description>
+  
+  <!-- EN: watermill generator -->
+  <WatermillGenerator.label>TODO</WatermillGenerator.label>
+  <!-- EN: Produces electricity from a river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generate will interfere and reduce power generation. -->
+  <WatermillGenerator.description>TODO</WatermillGenerator.description>
+  
+  <!-- EN: waterproof conduit -->
+  <WaterproofConduit.label>TODO</WaterproofConduit.label>
+  <!-- EN: Insulated electrical cables for transmitting power under shallow water. -->
+  <WaterproofConduit.description>TODO</WaterproofConduit.description>
+  
+  <!-- EN: wind turbine -->
+  <WindTurbine.label>Windturbine</WindTurbine.label>
+  <!-- EN: A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow. -->
+  <WindTurbine.description>Ein windbetriebener, elektrischer Generator. Benötigt eine große freie Fläche vor und hinter ihm, um eine optimale Windströmung zu gewährleisten.</WindTurbine.description>
+  
+  <!-- EN: wood-fired generator -->
+  <WoodFiredGenerator.label>TODO</WoodFiredGenerator.label>
+  <!-- EN: Produces power by consuming wood. Must be periodically loaded with wood fuel by hand. -->
+  <WoodFiredGenerator.description>TODO</WoodFiredGenerator.description>
+  
 </LanguageData>

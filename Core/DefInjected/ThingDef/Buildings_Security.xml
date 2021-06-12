@@ -1,28 +1,49 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<Sandbags.label>Sandsäcke</Sandbags.label>
-	<Sandbags.description>Gibt Deckung bei Beschuss.</Sandbags.description>
-	
-	<TurretGun.label>Autom. Geschütz</TurretGun.label>
-	<TurretGun.description>Eine schwache, improvisierte Selbstschussanlage, die automatisch auf Gegner in der Nähe schießt. Hinweis: Beschädigung kann zur Explosion führen.</TurretGun.description>
-
-	<Turret_MortarBomb.label>Mörser (Explosiv)</Turret_MortarBomb.label>
-	<Turret_MortarBomb.description>Ein Mörser, der Explosivgeschosse verschießt. Muss von einem Kolonisten bemannt werden. Hinweis: Beschädigung kann zur Explosion führen.</Turret_MortarBomb.description>
-
-	<Turret_MortarIncendiary.label>Mörser (Brand)</Turret_MortarIncendiary.label>
-	<Turret_MortarIncendiary.description>Ein Mörser, der Brandgeschosse verschießt. Muss von einem Kolonisten bemannt werden. Hinweis: Beschädigung kann zur Explosion führen.</Turret_MortarIncendiary.description>
-
-	<Turret_MortarEMP.label>Mörser (EMP)</Turret_MortarEMP.label>
-	<Turret_MortarEMP.description>Ein Mörser, der EMP Granaten verschießt. Muss von einem Kolonisten bemannt werden. Hinweis: Beschädigung kann zur Explosion führen.</Turret_MortarEMP.description>
-
-	<TrapDeadfall.label>Gewicht Falle</TrapDeadfall.label>
-	<TrapDeadfall.description>Ein frei hängendes, mit Stacheln versehendes Gewicht, das durch einen empfindlichen Auslöser gesichert ist. Wenn das Opfer den Auslöser berührt, wird das Gewicht gelöst und fällt auf den Kopf oder Körper des Opfers.</TrapDeadfall.description>
-
-	<TrapIEDBomb.label>Improv. Sprengsatz</TrapIEDBomb.label>
-	<TrapIEDBomb.description>Ein Artilleriegeschoss mit einem selbstgebauten Auslöser. Wenn jemand den Auslöser betätigt explodiert das Geschoss. Der selbstgebaute Trigger hat eine zufällige Verzögerung, die es flinken Gegnern evtl. erlaubt zu entkommen.</TrapIEDBomb.description>
-
-	<TrapIEDIncendiary.label>Improv. Brandbombe</TrapIEDIncendiary.label>
-	<TrapIEDIncendiary.description>Ein Explosivstoff wurde mit einer Brandbeschleunigerpaste vermischt und mit einem chemischen Auslöser verbunden. Wenn jemand den Auslöser betätigt, zündet das Gemisch und versprengt brennenden Treibstoff. Da es nicht notwenig ist etwas Hochexplosives zu zünden, ist der chemische Auslöser einfacher und zuverlässiger als manch anderer.</TrapIEDIncendiary.description>
-	
+  
+  <!-- EN: barricade -->
+  <Barricade.label>TODO</Barricade.label>
+  <!-- EN: A waist-high barrier for use as cover from incoming shots. Barricades are ugly, but provide better cover than other low objects. -->
+  <Barricade.description>TODO</Barricade.description>
+  
+  <!-- EN: sandbags -->
+  <Sandbags.label>Sandsäcke</Sandbags.label>
+  <!-- EN: Bags of locally-sourced dirt or sand, stacked for use as cover. Sandbags are ugly, but provide better cover than other low objects. -->
+  <Sandbags.description>Gibt Deckung bei Beschuss.</Sandbags.description>
+  
+  <!-- EN: IED antigrain warhead trap -->
+  <TrapIED_AntigrainWarhead.label>TODO</TrapIED_AntigrainWarhead.label>
+  <!-- EN: An antimatter-powered antigrain warhead connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_AntigrainWarhead.description>TODO</TrapIED_AntigrainWarhead.description>
+  
+  <!-- EN: IED EMP trap -->
+  <TrapIED_EMP.label>TODO</TrapIED_EMP.label>
+  <!-- EN: A pair of EMP shells connected to a trigger which detonates on touch or bullet impact. The explosion can paralyze mechanoids for a few seconds. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_EMP.description>TODO</TrapIED_EMP.description>
+  
+  <!-- EN: IED firefoam trap -->
+  <TrapIED_Firefoam.label>TODO</TrapIED_Firefoam.label>
+  <!-- EN: A pair of firefoam shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_Firefoam.description>TODO</TrapIED_Firefoam.description>
+  
+  <!-- EN: IED trap -->
+  <TrapIED_HighExplosive.label>Improv. Sprengsatz</TrapIED_HighExplosive.label>
+  <!-- EN: A pair of high-explosive shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_HighExplosive.description>Ein Artilleriegeschoss mit einem selbstgebauten Auslöser. Wenn jemand den Auslöser betätigt explodiert das Geschoss. Der selbstgebaute Trigger hat eine zufällige Verzögerung, die es flinken Gegnern evtl. erlaubt zu entkommen.</TrapIED_HighExplosive.description>
+  
+  <!-- EN: IED incendiary trap -->
+  <TrapIED_Incendiary.label>Improv. Brandbombe</TrapIED_Incendiary.label>
+  <!-- EN: A pair of incendiary shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_Incendiary.description>Ein Explosivstoff wurde mit einer Brandbeschleunigerpaste vermischt und mit einem chemischen Auslöser verbunden. Wenn jemand den Auslöser betätigt, zündet das Gemisch und versprengt brennenden Treibstoff. Da es nicht notwenig ist etwas Hochexplosives zu zünden, ist der chemische Auslöser einfacher und zuverlässiger als manch anderer.</TrapIED_Incendiary.description>
+  
+  <!-- EN: IED Smoke trap -->
+  <TrapIED_Smoke.label>TODO</TrapIED_Smoke.label>
+  <!-- EN: A pair of smoke shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_Smoke.description>TODO</TrapIED_Smoke.description>
+  
+  <!-- EN: spike trap -->
+  <TrapSpike.label>Gewicht Falle</TrapSpike.label>
+  <!-- EN: Five spikes under tension, connected to a touch-activated trigger. When the victim disturbs the trigger, the spikes spring forth and strike the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapSpike.description>Ein frei hängendes, mit Stacheln versehendes Gewicht, das durch einen empfindlichen Auslöser gesichert ist. Wenn das Opfer den Auslöser berührt, wird das Gewicht gelöst und fällt auf den Kopf oder Körper des Opfers.</TrapSpike.description>
+  
 </LanguageData>

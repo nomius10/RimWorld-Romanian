@@ -1,28 +1,91 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	
-	<MoveSpeed.label>Bewegungsgeschwindigkeit</MoveSpeed.label>
-	<MoveSpeed.description>Die Geschwindigkeit, mit der sich dieser Charakter durch die Welt bewegt. In Zellen pro Sekunde.</MoveSpeed.description>
-	
-	<MentalBreakThreshold.label>Zusammenbruchschwelle</MentalBreakThreshold.label>
-	<MentalBreakThreshold.description>So lange die Stimmung unterhalb dieser Schwelle ist, besteht die Gefahr eines Nervenzusammenbruchs des Kolonisten.</MentalBreakThreshold.description>
-	
-	<PsychicSensitivity.label>Psychische Sensibilität</PsychicSensitivity.label>
-	<PsychicSensitivity.description>Multiplikator auf die Wirkung von psychischen Phänomenen, die diesen Kolonisten beeinflussen.</PsychicSensitivity.description>
-	
-	<GlobalLearningFactor.label>Globaler Lernfaktor</GlobalLearningFactor.label>
-	<GlobalLearningFactor.description>Globale Lerneffektivität für alle Fähigkeiten.</GlobalLearningFactor.description>
-	
-	<EatingSpeed.label>Essgeschwindigkeit</EatingSpeed.label>
-	<EatingSpeed.description>Multiplikator auf die Essgeschwindigkeit.</EatingSpeed.description>
-	
-	<ComfyTemperatureMin.label>Minimale komfortable Temperatur</ComfyTemperatureMin.label>
-	<ComfyTemperatureMin.description>Unterhalb dieser Temperatur wird der Kolonist unglücklich. Beträchtlich unterhalb dieser Temperatur läuft er Gefahr, sich zu unterkühlen oder tödliche Erfrierungen zu erleiden.</ComfyTemperatureMin.description>
-	
-	<ComfyTemperatureMax.label>Maximale komfortable Temperatur</ComfyTemperatureMax.label>
-	<ComfyTemperatureMax.description>Oberhalb dieser Temperatur wird der Kolonist unglücklich. Beträchtlich oberhalb dieser Temperatur läuft er Gefahr, einen Hitzschlag zu bekommen, was lebensgefährlich sein kann..</ComfyTemperatureMax.description>
-	
-	<ImmunityGainSpeed.label>Imunisierungsgeschwindigkeit</ImmunityGainSpeed.label>
-	<ImmunityGainSpeed.description>Die Geschwindigkeit, mit der der Kolonist eine Immunisierung gegen Krankheiten aufbaut. Wenn sie zu langsam ist, stirbt der Charakter an den Folgen der Krankheit, bevor er eine Immunisierung aufbauen kann.</ImmunityGainSpeed.description>
-	
+  
+  <!-- EN: carrying capacity -->
+  <CarryingCapacity.label>TODO</CarryingCapacity.label>
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
+  <CarryingCapacity.description>TODO</CarryingCapacity.description>
+  
+  <!-- EN: Maximum comfortable temperature -->
+  <ComfyTemperatureMax.label>Maximale komfortable Temperatur</ComfyTemperatureMax.label>
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
+  <ComfyTemperatureMax.description>Oberhalb dieser Temperatur wird der Kolonist unglücklich. Beträchtlich oberhalb dieser Temperatur läuft er Gefahr, einen Hitzschlag zu bekommen, was lebensgefährlich sein kann..</ComfyTemperatureMax.description>
+  
+  <!-- EN: Minimum comfortable temperature -->
+  <ComfyTemperatureMin.label>Minimale komfortable Temperatur</ComfyTemperatureMin.label>
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <ComfyTemperatureMin.description>Unterhalb dieser Temperatur wird der Kolonist unglücklich. Beträchtlich unterhalb dieser Temperatur läuft er Gefahr, sich zu unterkühlen oder tödliche Erfrierungen zu erleiden.</ComfyTemperatureMin.description>
+  
+  <!-- EN: eating speed -->
+  <EatingSpeed.label>Essgeschwindigkeit</EatingSpeed.label>
+  <!-- EN: A multiplier on eating speed. -->
+  <EatingSpeed.description>Multiplikator auf die Essgeschwindigkeit.</EatingSpeed.description>
+  
+  <!-- EN: foraged food amount -->
+  <ForagedNutritionPerDay.label>TODO</ForagedNutritionPerDay.label>
+  <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
+  <ForagedNutritionPerDay.description>TODO</ForagedNutritionPerDay.description>
+  
+  <!-- EN: global learning factor -->
+  <GlobalLearningFactor.label>Globaler Lernfaktor</GlobalLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for all skills. -->
+  <GlobalLearningFactor.description>Globale Lerneffektivität für alle Fähigkeiten.</GlobalLearningFactor.description>
+  
+  <!-- EN: hunger rate multiplier -->
+  <HungerRateMultiplier.label>TODO</HungerRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
+  <HungerRateMultiplier.description>TODO</HungerRateMultiplier.description>
+  
+  <!-- EN: immunity gain speed -->
+  <ImmunityGainSpeed.label>Imunisierungsgeschwindigkeit</ImmunityGainSpeed.label>
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
+  <ImmunityGainSpeed.description>Die Geschwindigkeit, mit der der Kolonist eine Immunisierung gegen Krankheiten aufbaut. Wenn sie zu langsam ist, stirbt der Charakter an den Folgen der Krankheit, bevor er eine Immunisierung aufbauen kann.</ImmunityGainSpeed.description>
+  
+  <!-- EN: leather amount -->
+  <LeatherAmount.label>TODO</LeatherAmount.label>
+  <!-- EN: The amount of leather yielded when butchering this creature. -->
+  <LeatherAmount.description>TODO</LeatherAmount.description>
+  
+  <!-- EN: meat amount -->
+  <MeatAmount.label>TODO</MeatAmount.label>
+  <!-- EN: The amount of meat yielded when butchering this creature. -->
+  <MeatAmount.description>TODO</MeatAmount.description>
+  
+  <!-- EN: mental break threshold -->
+  <MentalBreakThreshold.label>Zusammenbruchschwelle</MentalBreakThreshold.label>
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
+  <MentalBreakThreshold.description>So lange die Stimmung unterhalb dieser Schwelle ist, besteht die Gefahr eines Nervenzusammenbruchs des Kolonisten.</MentalBreakThreshold.description>
+  
+  <!-- EN: minimum handling skill -->
+  <MinimumHandlingSkill.label>TODO</MinimumHandlingSkill.label>
+  <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
+  <MinimumHandlingSkill.description>TODO</MinimumHandlingSkill.description>
+  
+  <!-- EN: move speed -->
+  <MoveSpeed.label>Bewegungsgeschwindigkeit</MoveSpeed.label>
+  <!-- EN: Speed of movement in cells per second. -->
+  <MoveSpeed.description>Die Geschwindigkeit, mit der sich dieser Charakter durch die Welt bewegt. In Zellen pro Sekunde.</MoveSpeed.description>
+  <!-- EN: {0} c/s -->
+  <MoveSpeed.formatString>TODO</MoveSpeed.formatString>
+  
+  <!-- EN: pain shock threshold -->
+  <PainShockThreshold.label>TODO</PainShockThreshold.label>
+  <!-- EN: The pain level at which this creature is downed from pain. -->
+  <PainShockThreshold.description>TODO</PainShockThreshold.description>
+  
+  <!-- EN: psychic sensitivity -->
+  <PsychicSensitivity.label>Psychische Sensibilität</PsychicSensitivity.label>
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
+  <PsychicSensitivity.description>Multiplikator auf die Wirkung von psychischen Phänomenen, die diesen Kolonisten beeinflussen.</PsychicSensitivity.description>
+  
+  <!-- EN: rest rate multiplier -->
+  <RestRateMultiplier.label>TODO</RestRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
+  <RestRateMultiplier.description>TODO</RestRateMultiplier.description>
+  
+  <!-- EN: toxic sensitivity -->
+  <ToxicSensitivity.label>TODO</ToxicSensitivity.label>
+  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
+  <ToxicSensitivity.description>TODO</ToxicSensitivity.description>
+  
 </LanguageData>

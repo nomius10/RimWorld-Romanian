@@ -1,13 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	
-	<Wealth.label>Reichtum</Wealth.label>
-	<Wealth.graphLabelY>Wert</Wealth.graphLabelY>
-	
-	<Population.label>Bevölkerung</Population.label>
-	<Population.graphLabelY>Kolonisten</Population.graphLabelY>
-	
-	<ColonistMood.label>Stimmung der Kolonisten</ColonistMood.label>
-	<ColonistMood.graphLabelY>Prozent</ColonistMood.graphLabelY>
+  
+  <!-- EN: colonist mood -->
+  <ColonistMood.label>Stimmung der Kolonisten</ColonistMood.label>
+  
+  <!-- UNUSED -->
+  <ColonistMood.graphLabelY>Prozent</ColonistMood.graphLabelY>
+  
+  <!-- EN: debug -->
+  <Debug.label>TODO</Debug.label>
+  
+  <!-- EN: population -->
+  <Population.label>Bevölkerung</Population.label>
+  
+  <!-- UNUSED -->
+  <Population.graphLabelY>Kolonisten</Population.graphLabelY>
+  
+  <!-- EN: wealth -->
+  <Wealth.label>Reichtum</Wealth.label>
+  
+  <!-- UNUSED -->
+  <Wealth.graphLabelY>Wert</Wealth.graphLabelY>
   
 </LanguageData>

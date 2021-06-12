@@ -1,16 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	
-	<WealthTotal.label>Wert (Gesamt)</WealthTotal.label>
-	
-	<WealthItems.label>Wert (Gegenstände)</WealthItems.label>
-	
-	<WealthBuildings.label>Wert (Gebäude)</WealthBuildings.label>
-	
-	<FreeColonists.label>Freie Kolonisten</FreeColonists.label>
-	
-	<Prisoners.label>Gefangene</Prisoners.label>
-	
-	<ColonistMood.label>Stimmung</ColonistMood.label>
+  
+  <!-- EN: recovery -->
+  <Adaptation.label>TODO</Adaptation.label>
+  <!-- EN: {0} days -->
+  <Adaptation.valueFormat>TODO</Adaptation.valueFormat>
+  
+  <!-- EN: mood -->
+  <ColonistMood.label>Stimmung</ColonistMood.label>
+  
+  <!-- EN: free colonists -->
+  <FreeColonists.label>Freie Kolonisten</FreeColonists.label>
+  
+  <!-- EN: pop recovery -->
+  <PopAdaptation.label>TODO</PopAdaptation.label>
+  <!-- EN: {0} days -->
+  <PopAdaptation.valueFormat>TODO</PopAdaptation.valueFormat>
+  
+  <!-- EN: pop intent x10 -->
+  <PopIntent.label>TODO</PopIntent.label>
+  <!-- EN: {0} days -->
+  <PopIntent.valueFormat>TODO</PopIntent.valueFormat>
+  
+  <!-- EN: prisoners -->
+  <Prisoners.label>Gefangene</Prisoners.label>
+  
+  <!-- EN: fun points /10 -->
+  <ThreatPoints.label>TODO</ThreatPoints.label>
+  <!-- EN: {0} points -->
+  <ThreatPoints.valueFormat>TODO</ThreatPoints.valueFormat>
+  
+  <!-- EN: wealth (buildings) -->
+  <Wealth_Buildings.label>Wert (Gebäude)</Wealth_Buildings.label>
+  
+  <!-- EN: wealth (items) -->
+  <Wealth_Items.label>Wert (Gegenstände)</Wealth_Items.label>
+  
+  <!-- EN: wealth (creatures) -->
+  <Wealth_Pawns.label>TODO</Wealth_Pawns.label>
+  
+  <!-- EN: wealth (total) -->
+  <Wealth_Total.label>Wert (Gesamt)</Wealth_Total.label>
   
 </LanguageData>

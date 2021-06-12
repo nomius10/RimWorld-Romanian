@@ -1,15 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	
-	<Work.label>arbeit</Work.label>
-	<Meditative.label>meditativ</Meditative.label>
-	<Lewd.label>lüstern</Lewd.label>
-	<Social.label>sozial</Social.label>
-	<Chemical.label>chemisch</Chemical.label>
-	<Gluttonous.label>gefräßig</Gluttonous.label>
-	<GamingDexterity.label>spielen (geschick)</GamingDexterity.label>
-	<GamingCerebral.label>spielen (geistig)</GamingCerebral.label>
-	<Passive.label>passiv</Passive.label>
-	<Study.label>lernen</Study.label>
-	
+  
+  <!-- EN: chemical consumption -->
+  <Chemical.label>chemisch</Chemical.label>
+  
+  <!-- EN: cerebral play -->
+  <Gaming_Cerebral.label>spielen (geistig)</Gaming_Cerebral.label>
+  
+  <!-- EN: dexterity play -->
+  <Gaming_Dexterity.label>spielen (geschick)</Gaming_Dexterity.label>
+  
+  <!-- EN: food consumption -->
+  <Gluttonous.label>gefräßig</Gluttonous.label>
+  
+  <!-- UNUSED -->
+  <Lewd.label>lüstern</Lewd.label>
+  
+  <!-- EN: solitary relaxation -->
+  <Meditative.label>meditativ</Meditative.label>
+  
+  <!-- UNUSED -->
+  <Passive.label>passiv</Passive.label>
+  
+  <!-- EN: social interaction -->
+  <Social.label>sozial</Social.label>
+  
+  <!-- UNUSED -->
+  <Study.label>lernen</Study.label>
+  
+  <!-- EN: telescope study -->
+  <Telescope.label>TODO</Telescope.label>
+  
+  <!-- EN: television watching -->
+  <Television.label>TODO</Television.label>
+  
+  <!-- UNUSED -->
+  <Work.label>arbeit</Work.label>
+  
 </LanguageData>

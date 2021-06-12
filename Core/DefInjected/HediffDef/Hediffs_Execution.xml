@@ -1,7 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	
-	<Euthanasia.label>Einschläfern</Euthanasia.label>
-	<ShutDown.label>Abschalten</ShutDown.label>
-	
+  
+  <!-- UNUSED -->
+  <Euthanasia.label>Einschläfern</Euthanasia.label>
+  
+  <!-- UNUSED -->
+  <ShutDown.label>Abschalten</ShutDown.label>
+  
 </LanguageData>
